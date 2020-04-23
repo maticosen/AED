@@ -8,6 +8,4 @@
 
 **Compilador utilizado:** *MinGW*
 
-**Análisis del Problema**
-
-*Escribir un programa en C++ que muestre por pantalla el mensaje "Hello, World!"*
+**Análisis del Problema:** *Escribir un programa en C++ que muestre por pantalla el mensaje "Hello, World!"*

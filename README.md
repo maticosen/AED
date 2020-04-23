@@ -1,5 +1,5 @@
 # AED
-## Algoritmos y Estructuras de Datos
+## Algoritmos y Estructura de Datos
 
 **Curso:** K1051
 

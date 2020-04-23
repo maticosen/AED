@@ -1,7 +1,12 @@
 # AED
-Algoritmos y Estructura de Datos |
-K1051 |
-2020 |
-1410271 |
-Cosentino
-Matias
+## Algoritmos y Estructuras de Datos
+
+**Curso:** K1051
+
+**Año de cursada:** 2020
+
+**Legajo:** 1410271
+
+**Apellido:** Cosentino
+
+**Nombre:** Matias

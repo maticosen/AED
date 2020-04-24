@@ -1,4 +1,4 @@
-**Autor de la resolucion:**
+**Autor de la resolución:**
   * Usuario github: *maticosen*
   * Legajo: *1410271*
   * Apellido: *Cosentino*

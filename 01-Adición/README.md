@@ -28,4 +28,10 @@
 
 * **Representación visual**
 
+![](https://github.com/maticosen/AED/blob/master/Otros/01_DdF.jpg)
+
 * **Representación textual**
+
+1. Leer a.
+2. Leer b.
+3. Mostrar a+b.

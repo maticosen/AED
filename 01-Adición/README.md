@@ -14,7 +14,7 @@
 
 * **Transcripción del problema:** *Obtener del usuario dos números y mostrarle la suma.*
 
-* **Refinamiento del problema e hipótesis de trabajo:** *Se le solicitara al usuario ingresar por teclado dos números enteros para luego realizar la suma entre ambos y mostrar el resultado por pantalla.*
+* **Refinamiento del problema e hipótesis de trabajo:** *Se le solicitará al usuario ingresar por teclado dos números enteros para luego realizar la suma entre ambos y mostrar el resultado por pantalla.*
 
 * **Modelo IPO**
 
@@ -31,7 +31,6 @@
 ![](https://github.com/maticosen/AED/blob/master/Otros/01_DdF.jpg)
 
 * **Representación textual**
-
 1. Leer a.
 2. Leer b.
 3. Mostrar a+b.

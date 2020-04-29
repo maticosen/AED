@@ -11,6 +11,11 @@
 ---
 
 #### Etapa #1: Análisis del Problema
-* Transcripción del problema: *Obtener del usuario dos números y mostrarle la suma.*
-* Refinamiento del problema e hipótesis de trabajo: *Se le solicitara al usuario ingresar por teclado dos números enteros para luego realizar la suma entre ambos y mostrar el resultado por pantalla.*
-* Modelo IPO
+
+* **Transcripción del problema:** *Obtener del usuario dos números y mostrarle la suma.*
+
+* **Refinamiento del problema e hipótesis de trabajo:** *Se le solicitara al usuario ingresar por teclado dos números enteros para luego realizar la suma entre ambos y mostrar el resultado por pantalla.*
+
+* **Modelo IPO**
+
+![](https://github.com/maticosen/AED/blob/master/Otros/01_IPO.jpg)

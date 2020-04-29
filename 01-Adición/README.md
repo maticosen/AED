@@ -19,3 +19,13 @@
 * **Modelo IPO**
 
 ![](https://github.com/maticosen/AED/blob/master/Otros/01_IPO.jpg)
+
+---
+
+#### Etapa #2: Diseño de la solución
+
+* **Léxico del Algoritmo:** *a,b ∈ ℤ*
+
+* **Representación visual**
+
+* **Representación textual**

@@ -31,6 +31,6 @@ int main ()
     assert (-10 == (i1*i2));
 
     //Tipo DOUBLE: se realiza la division de 2 numeros
-    double d1=10, d2=3, res;
+    double d1=10.0, d2=3.0;
     assert (3.34 >= (d1/d2));
 }

@@ -35,3 +35,17 @@
 *Además, las pruebas deben realizarse con assert y cada función debe aplicar el operador condicional*
 
 ---
+
+#### Etapa #2: Diseño de la solución
+
+##### Valor absoluto
+
+![](https://github.com/maticosen/AED/blob/master/Otros/04_Abs.jpg)
+
+##### Valor mínimo entre dos valores
+
+![](https://github.com/maticosen/AED/blob/master/Otros/04_Min.jpg)
+
+##### Función F3
+
+![](https://github.com/maticosen/AED/blob/master/Otros/04_Step.jpg)

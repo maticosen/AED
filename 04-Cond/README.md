@@ -21,3 +21,17 @@
   *3. Función F3, definida por:*
 
 ![](https://github.com/maticosen/AED/blob/master/Otros/04_F3.jpg)
+
+* **Refinamiento del problema e hipótesis de trabajo:** *Por cada función:*
+
+  *1. Escribir el léxico, es decir, la definición matemática de la función.*
+  
+  *2. Escribir las pruebas.*
+  
+  *3. Escribir los prototipos.*
+
+  *4. Escribir las definiciones.*
+  
+*Ademas, las pruebas deben realizarse con assert y cada función debe aplicar el operador condicional*
+
+---

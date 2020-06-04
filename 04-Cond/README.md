@@ -40,13 +40,13 @@
 
 ##### Valor absoluto
 
-![](https://github.com/maticosen/AED/blob/master/Otros/04_Abs.jpg)
+
 
 ##### Valor mínimo entre dos valores
 
-![](https://github.com/maticosen/AED/blob/master/Otros/04_Min.jpg)
+
 
 ##### Función F3
 
-![](https://github.com/maticosen/AED/blob/master/Otros/04_Step.jpg)
+
 

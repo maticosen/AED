@@ -32,6 +32,6 @@
 
   *4. Escribir las definiciones.*
   
-*Ademas, las pruebas deben realizarse con assert y cada función debe aplicar el operador condicional*
+*Además, las pruebas deben realizarse con assert y cada función debe aplicar el operador condicional*
 
 ---

@@ -53,7 +53,7 @@
 
 * **Definicion**
 
-*bool IsBisiesto (int x) { return x>=1582 and x%4==0 and (x%100!=0 or x%400==0); }*
+*bool IsBisiesto (int x) { return x>1582 and x%4==0 and (x%100!=0 or x%400==0); }*
 
 * **Árbol de Expresión**
 

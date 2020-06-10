@@ -12,7 +12,7 @@
 
 #### Etapa #1: Análisis del Problema
 
-* **Transcripción del problema:** *Dado un año, determinar si es bisiesto*
+* **Transcripción del problema:** *Dado un año, determinar si es bisiesto.*
 
 * **Refinamiento del problema e hipótesis de trabajo:** *Se creará una función asumiendo como válido el algoritmo de Wikipedia y descartando cualquier año anterior al 1582. Además se deberán considerar las siguientes restricciones:*
 

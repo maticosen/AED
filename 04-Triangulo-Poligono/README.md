@@ -12,4 +12,4 @@
 
 #### Etapa #1: Análisis del Problema
 
-* **Transcripción del problema:** *Establecer el tipo de dato y sus operaciones para los siguientes tipos de datos: Triangulo y Poligono. Ambos deben inclui el concepto de color.*
+* **Transcripción del problema:** *Establecer el tipo de dato y los prototipos de sus operaciones para los siguientes tipos de datos: Triangulo y Poligono. Ambos deben incluir el concepto de color.*

@@ -34,3 +34,13 @@
 * **Modelo IPO**
 
 ![](https://github.com/maticosen/AED/blob/master/Otros/04_IPO.JPG)
+
+---
+---
+
+Utilizacion del **uint8_t** : El char (a secas) suele utilizarse para representar caracteres en textos. En el caso de utilizarlos para representar numeros, existen 2 tipos: 
+- signed char: cuyo rango de represantacion varia de -128 a 127 ya que el primer bit se utiliza para el signo. 
+- unsigned char: cuyo rango de representacion varia de 0 a 255.
+
+Independientemente de la arquitectura del microprocesador, el char ocupa 1 byte (8 bits).
+Considerando que en el ejercicio debemos utilizar numeros entre el rango [0, 255] y que el nombre de tipo uint8_t es un alias para el tipo unsigned char, se recomiendo utilzar este tipo de dato.

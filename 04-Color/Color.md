@@ -1,6 +1,6 @@
 * **Expresion matematica:**
 
-
+![](https://github.com/maticosen/AED/blob/master/Otros/04_Lex.JPG)
 
 * **Operaciones y Valores**
   - *IsIgual:* Color x Color -> B

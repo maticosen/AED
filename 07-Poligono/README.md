@@ -6,7 +6,7 @@
   
 ---  
 
-**Número y título del trabajo:** *07-Geometria-Poligono**
+**Número y título del trabajo:** *07-Geometria-Poligono*
 
 ---
 

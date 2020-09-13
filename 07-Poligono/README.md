@@ -12,7 +12,7 @@
 
 #### Etapa #1: Análisis del Problema
 
-* **Transcripción del problema:** *Desarrollar el tipo de dato Polígono que representa polígonos con color en el plano. Las operaciones son: AddVertice, GetVertice, SetVertice, RemoveVertice, GetCantidadLados, y Get_GetPeremetro.*
+* **Transcripción del problema:** *Desarrollar el tipo de dato Polígono que representa polígonos con color en el plano. Las operaciones son: AddVertice, GetVertice, SetVertice, RemoveVertice, GetCantidadLados, y Get_GetPerimetro.*
 
 * **Refinamiento del problema e hipótesis de trabajo:** *Un polígono debera tener como minimo 3 vértices y como maximo 12 vertices.Se deberán considerar las siguientes restricciones:*
 

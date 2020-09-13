@@ -1,58 +1,9 @@
 /*  Geometria - Poligono
     Matias Cosentino
-    10092020
+    13092020
 */
 
-#include <iostream>
-#include <array>
-#include <cassert>
-#include <cmath>
-
-using namespace std;
-
-struct Color {uint8_t r, g, b;};
-
-const Color rojo {255,0,0};
-const Color verde {0,255,0};
-const Color azul {0,0,255};
-
-struct Punto {double x, y;};
-struct Poligono {unsigned n=0; array<Punto,12> v; Color col;};
-
-void SetColor (Poligono&, const Color&);
-void AddVertice (Poligono&, Punto); 
-Punto GetVertice (Poligono&, unsigned); 
-void SetVertice (Poligono&, unsigned, Punto); 
-void RemoveVertice (Poligono&);
-unsigned GetCantidadLados (const Poligono&);
-float Get_GetPerimetro (const Poligono&);
-
-int main ()
-{
-    Poligono pol;
-
-    SetColor (pol, azul);
-    assert ((0,0,255) == (pol.col.r,pol.col.g,pol.col.b));
-
-    AddVertice (pol, {1,-2});
-    AddVertice (pol, {-1,0});
-    AddVertice (pol, {1,2});
-    AddVertice (pol, {3,0});
-
-    assert ((1,-2) == (GetVertice (pol, 0).x,GetVertice (pol, 0).y));
-    assert ((1,2) == (GetVertice (pol, 2).x,GetVertice (pol, 2).y));
-
-    SetVertice (pol, 3, {1,4});
-    assert ((1,4) == (GetVertice (pol, 3).x,GetVertice (pol, 3).y));
-
-    RemoveVertice (pol);
-    assert (3 == GetCantidadLados (pol));
-    
-    AddVertice (pol, {5,5});
-    assert (4 == GetCantidadLados (pol));
-
-    assert (18.71 <= Get_GetPerimetro (pol));
-}
+#include "Poligono.h"
 
 void SetColor (Poligono& pol1, const Color& c1)
 {
@@ -97,7 +48,7 @@ unsigned GetCantidadLados (const Poligono& pol1)
     return pol1.n;
 }
 
-float Get_GetPerimetro (const Poligono& pol1)
+double Get_GetPerimetro (const Poligono& pol1)
 {
     double dist = 0.0;
     int j = pol1.n -1;

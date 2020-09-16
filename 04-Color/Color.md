@@ -3,8 +3,6 @@
 ![](https://github.com/maticosen/AED/blob/master/Otros/04_Lex.JPG)
 
 * **Operaciones y Valores**
-  - *IsIgual:* Compara los tres canales de ambos colores y devuelve true si son iguales o false en caso contrario. 
-      * Color x Color -> B
   - *Mezclar:* Mezcla en partes iguales dos colores, retornando un nuevo color.
       * Color x Color -> Color
   - *Sumar:* Dado dos colores, suma la intensidad de cada canal, siempre dando resultados en el rango [0, 255], retornando un nuevo color.
@@ -19,3 +17,7 @@
     * Color -> Σ*
   - *CrearSvgConTextoEscritoEnAltoContraste:* Dado un nombre archivo sin extensión, un texto, y un color de letra genera un archivo SVG con el texto en un color y fondo en su complementario.
     * Σ* x Σ* x Color -> .svg
+  - *IsIgual:* Compara los tres canales de ambos colores y devuelve true si son iguales o false en caso contrario. 
+      * Color x Color -> B
+
+      ![](https://github.com/maticosen/AED/blob/master/Otros/04_isigual.JPG)

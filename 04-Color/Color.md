@@ -4,8 +4,7 @@
 
 * **Operaciones y Valores**
   - *IsIgual:* Compara los tres canales de ambos colores y devuelve true si son iguales o false en caso contrario. 
-      Color x Color -> B
-      
+      * Color x Color -> B
   - *Mezclar:* Mezcla en partes iguales dos colores, retornando un nuevo color.
       * Color x Color -> Color
   - *Sumar:* Dado dos colores, suma la intensidad de cada canal, siempre dando resultados en el rango [0, 255], retornando un nuevo color.

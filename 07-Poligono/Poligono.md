@@ -3,10 +3,20 @@
 ![](https://github.com/maticosen/AED/blob/master/Otros/07_Lex.JPG)
 
 * **Operaciones y Valores**
-  - *SetColor:* Poligono x Color -> Poligono*
-  - *AddVertice:* Poligono x Punto -> Poligono*
-  - *GetVertice:* Poligono x N -> Punto
-  - *SetVertice:* Poligono x N x Punto -> Poligono*
-  - *RemoveVertice:* Poligono -> Poligono*
-  - *GetCantidadLados:* Poligono -> N
-  - *Get_GetPerimetro:* Poligono -> R
+  - *SetColor:* Establece el color del poligono.
+    * Poligono x Color -> Poligono*
+  - *AddVertice:* Agrega un vertice al final del poligono.
+    * Poligono x Punto -> Poligono*
+  - *GetVertice:* Devuelve un vértice del poligono acorde al índice solicitado.
+    * Poligono x N -> Punto
+  - *SetVertice:* Establece nuevos valores de un vertice del poligono acorde al indice indicado.
+    * Poligono x N x Punto -> Poligono*
+  - *RemoveVertice:* Elmina el ultimo vertice del polígono.
+    * Poligono -> Poligono*
+  - *GetCantidadLados:* Retorna la cantidad de lados del poligono.
+    * Poligono -> N
+	  
+	  ![](https://github.com/maticosen/AED/blob/master/Otros/07_getcantidadlados.JPG)
+	  
+  - *GetPerimetro:* Retorna el perimetro del poligono.
+    * Poligono -> R

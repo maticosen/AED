@@ -14,7 +14,7 @@
 
 * **Transcripción del problema:** *Desarrollar un programa el cual reciba y envie flujos de datos compuestos por una cantidad infinita de poligonos.*
 
-* **Refinamiento del problema e hipótesis de trabajo:** *El programa admitira recibir datos desde el teclado o un archivo, mientras que la salida podra redirigirse a pantalla o a un archivo.:*
+* **Refinamiento del problema e hipótesis de trabajo:** *El programa admitira recibir datos desde el teclado o un archivo, mientras que la salida podra redirigirse a pantalla o a un archivo. Los poligonos se delimitaran con un salto de linea (\n)*
 
 * **Expresion matematica:**
 

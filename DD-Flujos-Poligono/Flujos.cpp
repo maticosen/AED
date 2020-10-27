@@ -90,3 +90,19 @@ bool EnviarPunto (ostream& out1, Punto p1)
 	out1 << "(" << p1.x << ";" << p1.y << ")";
     return (bool) out1;
 }
+
+float Get_GetPerimetro (const Poligono& pol1)
+{
+    double dist = 0.0;
+    int j = pol1.n -1;
+
+    for (int i = 0; i < pol1.n; i++)
+    {
+//        cout << "Punto[i]=(" << pol1.v.at(i).x << "," << pol1.v.at(i).y << ")\t";
+//        cout << "Punto[j]=(" << pol1.v.at(j).x << "," << pol1.v.at(j).y << ")\n";
+        dist += sqrt (pow(pol1.v.at(i).x-pol1.v.at(j).x,2) + pow(pol1.v.at(i).y-pol1.v.at(j).y,2));
+        j = i;
+    }
+//    cout << dist << "\n";
+    return dist;
+}

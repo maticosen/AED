@@ -7,6 +7,7 @@
 #include <cstdint>
 #include <fstream>
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -22,3 +23,4 @@ void AgregarPunto(Poligono&, Punto, uint8_t);
 bool EnviarPoligono(ostream&, Poligono&);
 bool EnviarColor(ostream&, Color&);
 bool EnviarPunto(ostream&, Punto);
+float Get_GetPerimetro (const Poligono&);

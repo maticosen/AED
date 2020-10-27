@@ -11,5 +11,8 @@ int main ()
     Poligono pol;
 
     while (ExtraerPoligono(cin, pol))
-        EnviarPoligono(cout, pol);
+    {
+        if (Get_GetPerimetro(pol) > 30.0)
+            EnviarPoligono(cout, pol);
+    }
 }

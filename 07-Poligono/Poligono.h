@@ -25,4 +25,4 @@ Punto GetVertice (Poligono&, unsigned);
 void SetVertice (Poligono&, unsigned, Punto); 
 void RemoveVertice (Poligono&);
 unsigned GetCantidadLados (const Poligono&);
-double Get_GetPerimetro (const Poligono&);
+double GetPerimetro (const Poligono&);

@@ -48,7 +48,7 @@ unsigned GetCantidadLados (const Poligono& pol1)
     return pol1.n;
 }
 
-double Get_GetPerimetro (const Poligono& pol1)
+double GetPerimetro (const Poligono& pol1)
 {
     double dist = 0.0;
     int j = pol1.n -1;

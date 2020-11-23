@@ -29,5 +29,5 @@ int main ()
     AddVertice (pol, {5,5});
     assert (4 == GetCantidadLados (pol));
 
-    assert (18.7191 <= Get_GetPerimetro (pol));
+    assert (18.7191 <= GetPerimetro (pol));
 }

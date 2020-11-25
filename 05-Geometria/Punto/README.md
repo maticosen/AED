@@ -6,14 +6,14 @@
   
 ---  
 
-**Número y título del trabajo:** *07-Geometria-Poligono*
+**Número y título del trabajo:** *05-Geometria-Punto*
 
 ---
 
 #### Etapa #1: Análisis del Problema
 
-* **Transcripción del problema:** *Desarrollar el tipo de dato Polígono que representa polígonos con color en el plano. Las operaciones son: AddVertice, GetVertice, SetVertice, RemoveVertice, GetCantidadLados, y Get_GetPerimetro.*
+* **Transcripción del problema:** *Desarrollar el tipo de dato Punto que representa un punto en el plano con coordenadas cartesianas. Las operaciones son: IsIgual, GetDistancia y GetDistanciaAlOrigen.*
 
-* **Refinamiento del problema e hipótesis de trabajo:** *Un polígono debera tener como minimo 3 vértices y como maximo 12 vertices.Se deberán considerar las siguientes restricciones:*
+* **Refinamiento del problema e hipótesis de trabajo:** *Se deberán considerar las siguientes restricciones:*
 
     - *Las pruebas deben realizarse con **assert**, sin usar **cin** ni **cout**.*

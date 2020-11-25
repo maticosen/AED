@@ -1,6 +1,6 @@
 * **Expresion matematica:**
 
-![](https://github.com/maticosen/AED/blob/master/Otros/07_Lex.JPG)
+![](https://github.com/maticosen/AED/blob/master/Otros/05_pol_lex.JPG)
 
 * **Operaciones y Valores**
   - *SetColor:* Establece el color del poligono.
@@ -16,7 +16,7 @@
   - *GetCantidadLados:* Retorna la cantidad de lados del poligono.
     * Poligono -> N
 	  
-	  ![](https://github.com/maticosen/AED/blob/master/Otros/07_getcantidadlados.JPG)
+	  ![](https://github.com/maticosen/AED/blob/master/Otros/05_pol_getcantidadlados.JPG)
 	  
   - *GetPerimetro:* Retorna el perimetro del poligono.
     * Poligono -> R

@@ -7,12 +7,5 @@
 
 int main () 
 { 
-    Punto p;
-    Poligono pol;
-
-    while (ExtraerPoligono(cin, pol))
-    {
-        if (Get_GetPerimetro(pol) > 30.0)
-            EnviarPoligono(cout, pol);
-    }
+    CopiarPoligonosConPerimetrosMayoresA (30,"entrada.txt","salida.txt");
 }

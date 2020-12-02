@@ -20,7 +20,9 @@ bool ExtraerColor(istream&, Color&);
 bool ExtraerPuntos(istream&, Poligono&);
 bool ExtraerPunto(istream&, Punto&);
 void AgregarPunto(Poligono&, Punto, uint8_t);
-bool EnviarPoligono(ostream&, Poligono&);
-bool EnviarColor(ostream&, Color&);
-bool EnviarPunto(ostream&, Punto);
-float Get_GetPerimetro (const Poligono&);
+bool InsertarPoligono(ostream&, const Poligono&);
+bool InsertarColor(ostream&, const Color&);
+bool InsertarPunto(ostream&, const Punto);
+float GetPerimetro (const Poligono&);
+
+void CopiarPoligonosConPerimetrosMayoresA(double, string, string);

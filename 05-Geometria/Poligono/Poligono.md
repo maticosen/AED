@@ -21,4 +21,4 @@
   - *GetPerimetro:* Retorna el perimetro del poligono.
     * Poligono -> R
   - *GetDistancia:* Retorna la distancia entre 2 puntos del poligono.
-    * RxR -> R
+    * Punto x Punto -> R

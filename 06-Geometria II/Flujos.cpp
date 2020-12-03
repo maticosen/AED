@@ -90,8 +90,8 @@ bool InsertarPoligono(ostream& out1, const Poligono& pol1)
     InsertarColor (out1, pol1.col);
     out1 << " posee los puntos: ";
     InsertarPuntos (out1, pol1);
-//    for (uint8_t i=0 ; i<pol1.n ; i++)
-//        InsertarPunto(out1, pol1.v.at(i));
+//  for (uint8_t i=0 ; i<pol1.n ; i++)
+//      InsertarPunto(out1, pol1.v.at(i));
     out1 << "\n";
     return (bool) out1;
 }

@@ -89,8 +89,9 @@ bool InsertarPoligono(ostream& out1, const Poligono& pol1)
     out1 <<"El poligono de " << pol1.n <<" lados, cuyo color es ";
     InsertarColor (out1, pol1.col);
     out1 << " posee los puntos: ";
-    for (uint8_t i=0 ; i<pol1.n ; i++)
-        InsertarPunto(out1, pol1.v.at(i));
+    InsertarPuntos (out1, pol1);
+//    for (uint8_t i=0 ; i<pol1.n ; i++)
+//        InsertarPunto(out1, pol1.v.at(i));
     out1 << "\n";
     return (bool) out1;
 }
@@ -98,6 +99,13 @@ bool InsertarPoligono(ostream& out1, const Poligono& pol1)
 bool InsertarColor (ostream& out1, const Color& col1)
 {
 	out1 << "rgb(" << +(col1.r) << "," << +(col1.g) << "," << +(col1.b) << ")";
+    return (bool) out1;
+}
+
+bool InsertarPuntos (ostream& out1, const Poligono& pol1)
+{
+    for (uint8_t i=0 ; i<pol1.n ; i++)
+        InsertarPunto(out1, pol1.v.at(i));
     return (bool) out1;
 }
 

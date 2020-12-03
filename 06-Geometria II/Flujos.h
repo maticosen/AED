@@ -22,6 +22,7 @@ bool ExtraerPunto(istream&, Punto&);
 void AgregarPunto(Poligono&, Punto, uint8_t);
 bool InsertarPoligono(ostream&, const Poligono&);
 bool InsertarColor(ostream&, const Color&);
+bool InsertarPuntos(ostream&, const Poligono&);
 bool InsertarPunto(ostream&, const Punto);
 float GetPerimetro (const Poligono&);
 

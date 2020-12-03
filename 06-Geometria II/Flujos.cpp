@@ -115,18 +115,22 @@ bool InsertarPunto (ostream& out1, const Punto p1)
     return (bool) out1;
 }
 
-float GetPerimetro (const Poligono& pol1)
+double GetPerimetro (const Poligono& pol1)
 {
-    double dist = 0.0;
-    int j = pol1.n -1;
+    double perm = 0.0;
 
-    for (int i = 0; i < pol1.n; i++)
+    for (int i = 0, j = pol1.n - 1; i < pol1.n; i++)
     {
-//      cout << "Punto[i]=(" << pol1.v.at(i).x << "," << pol1.v.at(i).y << ")\t";
-//      cout << "Punto[j]=(" << pol1.v.at(j).x << "," << pol1.v.at(j).y << ")\n";
-        dist += sqrt (pow(pol1.v.at(i).x-pol1.v.at(j).x,2) + pow(pol1.v.at(i).y-pol1.v.at(j).y,2));
+        perm += GetDistancia (pol1.v.at(i), pol1.v.at(j));
         j = i;
     }
-//  cout << dist << "\n";
-    return dist;
+//  cout << perm << "\n";
+    return perm;
+}
+
+double GetDistancia (Punto p1, Punto p2)
+{
+//  cout << "Punto[1]=(" << p1.x << "," << p1.y << ")\t";
+//  cout << "Punto[2]=(" << p2.x << "," << p2.y << ")\n";
+    return sqrt (pow(p2.x-p1.x,2) + pow(p2.y-p1.y,2));
 }

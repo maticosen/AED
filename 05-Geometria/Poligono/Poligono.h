@@ -26,3 +26,4 @@ void SetVertice (Poligono&, unsigned, Punto);
 void RemoveVertice (Poligono&);
 unsigned GetCantidadLados (const Poligono&);
 double GetPerimetro (const Poligono&);
+double GetDistancia (Punto, Punto);

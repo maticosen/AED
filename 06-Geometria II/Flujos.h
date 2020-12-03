@@ -24,6 +24,6 @@ bool InsertarPoligono(ostream&, const Poligono&);
 bool InsertarColor(ostream&, const Color&);
 bool InsertarPuntos(ostream&, const Poligono&);
 bool InsertarPunto(ostream&, const Punto);
-float GetPerimetro (const Poligono&);
-
+double GetPerimetro (const Poligono&);
+double GetDistancia (Punto, Punto);
 void CopiarPoligonosConPerimetrosMayoresA(double, string, string);

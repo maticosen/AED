@@ -6,7 +6,7 @@
   
 ---  
 
-**Número y título del trabajo:** *08-Geometria III*
+**Número y título del trabajo:** *07-Geometria III*
 
 ---
 
